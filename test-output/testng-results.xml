@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-05T13:57:48 IST" name="Default suite" finished-at="2022-10-05T13:59:38 IST" duration-ms="109635">
+    <groups>
+    </groups>
+    <test started-at="2022-10-05T13:57:48 IST" name="Default test" finished-at="2022-10-05T13:59:38 IST" duration-ms="109635">
+      <class name="copy.copy.compents">
+        <test-method signature="setup()[pri:1, instance:copy.copy.compents@1ffe63b9]" started-at="2022-10-05T13:57:48 IST" name="setup" finished-at="2022-10-05T13:58:03 IST" duration-ms="15021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="compent()[pri:2, instance:copy.copy.compents@1ffe63b9]" started-at="2022-10-05T13:58:03 IST" name="compent" finished-at="2022-10-05T13:58:19 IST" depends-on-methods="copy.copy.compents.setup" duration-ms="15570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compent -->
+      </class> <!-- copy.copy.compents -->
+      <class name="copy.copy.laptop">
+        <test-method signature="setup()[pri:1, instance:copy.copy.laptop@7c469c48]" started-at="2022-10-05T13:58:27 IST" name="setup" finished-at="2022-10-05T13:58:33 IST" duration-ms="5773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Laptop()[pri:2, instance:copy.copy.laptop@7c469c48]" started-at="2022-10-05T13:58:33 IST" name="Laptop" finished-at="2022-10-05T13:58:51 IST" depends-on-methods="copy.copy.laptop.setup" duration-ms="17360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Laptop -->
+      </class> <!-- copy.copy.laptop -->
+      <class name="copy.copy.registration">
+        <test-method signature="setup()[pri:1, instance:copy.copy.registration@51e5fc98]" started-at="2022-10-05T13:58:19 IST" name="setup" finished-at="2022-10-05T13:58:25 IST" duration-ms="6096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registration()[pri:2, instance:copy.copy.registration@51e5fc98]" started-at="2022-10-05T13:58:25 IST" name="registration" finished-at="2022-10-05T13:58:27 IST" depends-on-methods="copy.copy.registration.setup" duration-ms="2618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+      </class> <!-- copy.copy.registration -->
+      <class name="copy.copy.phones">
+        <test-method signature="setup()[pri:1, instance:copy.copy.phones@12e61fe6]" started-at="2022-10-05T13:58:51 IST" name="setup" finished-at="2022-10-05T13:58:57 IST" duration-ms="6683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="phones()[pri:2, instance:copy.copy.phones@12e61fe6]" started-at="2022-10-05T13:58:57 IST" name="phones" finished-at="2022-10-05T13:59:03 IST" depends-on-methods="copy.copy.phones.setup" duration-ms="5868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phones -->
+      </class> <!-- copy.copy.phones -->
+      <class name="copy.copy.club">
+        <test-method signature="setup()[pri:1, instance:copy.copy.club@7ee955a8]" started-at="2022-10-05T13:59:03 IST" name="setup" finished-at="2022-10-05T13:59:09 IST" duration-ms="6088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registration()[pri:2, instance:copy.copy.club@7ee955a8]" started-at="2022-10-05T13:59:09 IST" name="registration" finished-at="2022-10-05T13:59:13 IST" depends-on-methods="copy.copy.club.setup" duration-ms="3643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="Laptop()[pri:3, instance:copy.copy.club@7ee955a8]" started-at="2022-10-05T13:59:13 IST" name="Laptop" finished-at="2022-10-05T13:59:21 IST" depends-on-methods="copy.copy.club.setup" duration-ms="8546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Laptop -->
+        <test-method signature="compent()[pri:4, instance:copy.copy.club@7ee955a8]" started-at="2022-10-05T13:59:21 IST" name="compent" finished-at="2022-10-05T13:59:32 IST" depends-on-methods="copy.copy.club.setup" duration-ms="10672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compent -->
+        <test-method signature="phones()[pri:5, instance:copy.copy.club@7ee955a8]" started-at="2022-10-05T13:59:32 IST" name="phones" finished-at="2022-10-05T13:59:38 IST" depends-on-methods="copy.copy.club.setup" duration-ms="5599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phones -->
+      </class> <!-- copy.copy.club -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
